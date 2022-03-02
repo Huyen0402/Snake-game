@@ -1,0 +1,96 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: rgb(24, 21, 218);
+}
+
+h2 {
+    color: red;
+}
+
+.title {
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#over {
+    color: red;
+    display: none;
+}
+
+#score-panel {
+    display: none;
+}
+
+#table {
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(3, 3, 3);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(241, 223, 235);
+}
+
+.button {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#newGame {
+    color: rgb(192, 58, 24);
+    background-color: rgb(109, 240, 97);
+    font-style: italic;
+    font-size: larger;
+    margin-left: 100px;
+}
+
+#up {
+    color: rgb(8, 8, 8);
+    background-color: rgb(250, 108, 219); 
+    border: 5px;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+#down {
+    color: rgb(8, 8, 8);
+    background-color: rgb(250, 108, 219); 
+    border: 5px;
+    font-size: medium;
+}
+
+#left {
+    color: rgb(8, 8, 8);
+    background-color: rgb(250, 108, 219); 
+    border: 5px;
+    font-size: medium;
+}
+
+#right {
+    color: rgb(8, 8, 8);
+    background-color: rgb(250, 108, 219); 
+    border: 5px;
+    font-size: medium;
+}
+
+.snake {
+    background-color: rgba(53, 138, 14, 0.815);
+    
+
+}
+
+.prey {
+    background-color: rgba(138, 14, 30, 0.815);
+    
+}
